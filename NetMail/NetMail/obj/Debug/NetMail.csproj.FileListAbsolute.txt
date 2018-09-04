@@ -1,0 +1,7 @@
+F:\GitHub\NetMail\NetMail\NetMail\bin\Debug\NetMail.exe.config
+F:\GitHub\NetMail\NetMail\NetMail\bin\Debug\NetMail.exe
+F:\GitHub\NetMail\NetMail\NetMail\bin\Debug\NetMail.pdb
+F:\GitHub\NetMail\NetMail\NetMail\obj\Debug\NetMail.csprojResolveAssemblyReference.cache
+F:\GitHub\NetMail\NetMail\NetMail\obj\Debug\NetMail.csproj.CoreCompileInputs.cache
+F:\GitHub\NetMail\NetMail\NetMail\obj\Debug\NetMail.exe
+F:\GitHub\NetMail\NetMail\NetMail\obj\Debug\NetMail.pdb
