@@ -140,6 +140,17 @@ namespace NetMail
             
         }
         /// <summary>
+        /// 设置SMTP服务器相关参数
+        /// </summary>
+        /// <param name="sendHost">SMTP服务器地址</param>
+        /// <param name="port">SMTP服务器端口</param>
+        public void SetSmtp(string sendHost, int port)
+        {
+            Smtp.Host = sendHost;
+            Smtp.Port = port;
+
+        }
+        /// <summary>
         /// 设置邮件信息类基本参数
         /// </summary>
         /// <param name="sender">发件人邮箱地址(可随便写)</param>
