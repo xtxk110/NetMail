@@ -87,6 +87,7 @@ namespace NetMail
         /// <param name="password">与SMTP服务器商匹配的邮箱密码开启SMTP服务时的授权码(一般是在某个网注册的邮箱)</param>
         public SendMai1Helper(string sender, string senderName, List<string> receiver, string subject, string body, string sendHost, int port, string sendMailaddr, string password) : this(sender, senderName, receiver,subject,body)
         {
+			Smtp.UseDefaultCredentials = true;
             Smtp.Host = sendHost;
             Smtp.Port = port;
             Smtp.Credentials = new NetworkCredential(sendMailaddr, password);
@@ -133,6 +134,7 @@ namespace NetMail
         /// <param name="enableSSL">SMTP服务器是否启用了SSL加密</param>
         public void SetSmtp(string sendHost,int port,string sendMail,string password,bool enableSSL=false)
         {
+			Smtp.UseDefaultCredentials = true;
             Smtp.Host = sendHost;
             Smtp.Port = port;
             Smtp.Credentials = new NetworkCredential(sendMail, password);
